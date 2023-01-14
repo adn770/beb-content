@@ -1,0 +1,98 @@
+{
+  "id": "beb-content",
+  "name": "beb-content",
+  "title": "Compendi per Bestioles e Brivalls",
+  "description": "Mòdul de compendi per a Bestioles e Brivalls i Old School Essentials ",
+  "version": "0.1",
+  "systems": [
+    "ose"
+  ],
+  "system": [
+    "ose"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "ose",
+        "type": "system",
+        "manifest": "https://github.com/vttred/ose/releases/download/1.6.8/system.json",
+        "compatibility": {
+          "verified": "1.6.8"
+        }
+      }
+    ]
+  },
+  "author": [
+    "adn770"
+  ],
+  "authors": [
+    {
+      "name": "Josep Torra",
+      "email": "",
+      "url": "http://tinyurl.com/BeB-JDR"
+    }
+  ],
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "packs": [
+    {
+      "name": "equipment-adventuring-gear",
+      "label": "Equipament: equip d'aventura",
+      "package": "beb-content",
+      "path": "packs/equipment-adventuring-gear.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "equipment-ammunition",
+      "label": "Equipament: munició",
+      "package": "beb-content",
+      "path": "packs/equipment-ammunition.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "equipment-armour",
+      "label": "Equipment: armadures",
+      "package": "beb-content",
+      "path": "packs/equipment-armour.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "equipment-coins",
+      "label": "Equipament: monedes",
+      "package": "beb-content",
+      "path": "packs/equipment-coins.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "equipment-weapons",
+      "label": "Equipament: armes",
+      "package": "beb-content",
+      "path": "packs/equipment-weapons.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "spells",
+      "label": "Encanteris",
+      "package": "beb-content",
+      "path": "packs/spells.db",
+      "entity": "Item",
+      "type": "Item"
+    }
+  ],
+  "minimumCoreVersion": "0.6.2",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "0.6.2",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "url": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
+  "manifest": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
+  "download": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION"
+}
